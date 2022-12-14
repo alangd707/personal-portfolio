@@ -5,46 +5,52 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index-style.css">
     </head>
     <body>
+        <div id="nav-bar">
+            <a href='index.html' id="main-link" class="nav-link">About Me</a> |
+            <a href='resume.html' class="nav-link">Resume</a> |
+            <a href='projects.html' class="nav-link">Projects</a>
+        </div>
+        <div id="face">
+            <img src="./assets/image.jpg" id="personal-picture"></img>
+        </div>
         <div id="main">
-            <spam id="nav-bar">
-                <a href='index.html' id="main-link" class="nav-link">About Me</a> |
-                <a href='resume.html' class="nav-link">Resume</a> |
-                <a href='currentProjects.html' class="nav-link">Projects</a>
-            </spam>
-            <div id="face">
-                <img src="./assets/image.jpg" id="personal-picture"></img>
-            </div>
-            <h1>Andrew Langdon</h1>
+            <h1>Hi, I'm Andrew Langdon</h1>
             <div id="main-text">
                 <div id="section-1" class="sections">
-                    <h4>| Who am I? |</h4>
+                    <h4>Who am I?</h4>
                     <p>My name is Andrew Langdon and I am currently a Junior at Boulder Creek Highschool, currently taking West-MEC and hoping to further my knowledge!</p>
                 </div>
                 <div id="section-2" class="sections">
-                    <h4>| Passions |</h4>
+                    <h4>Passions</h4>
                     <p>I have a burning passion towards history, mathematics, language and most importantly software development. Hope my passions will align with my work field!</p>
                 </div>
                 <div id="section-3" class="sections">
-                    <h4>| Goals |</h4>
+                    <h4>Goals</h4>
                     <p>Currently, I wish to get my first front-end job that will propell my career further granting me valuable experience for future opportunities!</p>
                 </div>
             </div>
-            <div id="footer">
-                <div id="other-pages" class="footer-sections">
-                    <p class="footer-header-p">Other Pages</p>
-                    <p class="footer-info-p">About Me <br> Contact Me <br> Other <br></p>
-                </div>
-                <div id="contact-me" class="footer-sections">
-                    <p class="footer-header-p">Contact Me</p>
-                    <p class="footer-info-p">Test</p>
-                </div>
-                <div id="other" class="footer-sections">
-                    <p class="footer-header-p">Other</p>
-                    <p class="footer-info-p">Test</p>
-                </div>
+        </div>
+        <div id="footer">
+            <div id="other-pages" class="footer-sections">
+                <p class="footer-header-p">Other Pages</p>
+                <p class="footer-info-p">
+                    <a href="index.html" class="footer-links">About Me</a><br>
+                    <a href="resume.html" class="footer-links">Resume</a><br>
+                    <a href="projects.html" class="footer-links">Projects</a>
+                </p>
+            </div>
+            <div id="contact-me" class="footer-sections">
+                <p class="footer-header-p">Contact Me</p>
+                <p class="footer-info-p" id="photo">
+                    <img class="social-media-icons" src="./assets/gmail-icon1.png" height="20px" width="20px"></img> alangdon1000@gmail.com
+                </p>
+            </div>
+            <div id="other" class="footer-sections">
+                <p class="footer-header-p">Other</p>
+                <p class="footer-info-p">Test</p>
             </div>
         </div>
     </body>

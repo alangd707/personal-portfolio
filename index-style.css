@@ -80,6 +80,8 @@ a {
 }
 #footer {
     display: grid;
+    position: absolute;
+    top: 100%;
     grid-template-columns: repeat(3, 1fr);
     background-color: black;
     width: 100%;

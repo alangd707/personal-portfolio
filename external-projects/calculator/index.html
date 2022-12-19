@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="display"></div>
+            <button id="equals" class="buttons" onclick="equals()">=</button>
+            <button id="negative" class="buttons functionality" onclick="negative()"> +/-</button>
+            <button id="decimal" class="buttons functionality" onclick="addDecimalPoint()">.</button>
+            <button id="all-clear" class="buttons remove" onclick="deleteInput(false)">AC</button>
+            <button id="delete" class="buttons remove" onclick="deleteInput(true)">⌫</button>
+            <button id="seven" class="buttons numbers" onclick="changeValue('7')">7</button>
+            <button id="eight" class="buttons numbers" onclick="changeValue('8')">8</button>
+            <button id="nine" class="buttons numbers" onclick="changeValue('9')">9</button>
+            <button id="add" class="buttons arithmetic" onclick="addOperator('+')">+</button>
+            <button id="four" class="buttons numbers" onclick="changeValue('4')">4</button>
+            <button id="five" class="buttons numbers" onclick="changeValue('5')">5</button>
+            <button id="six" class="buttons numbers" onclick="changeValue('6')">6</button>
+            <button id="subtract" class="buttons arithmetic" onclick="addOperator('-')">-</button>
+            <button id="one" class="buttons numbers" onclick="changeValue('1')">1</button>
+            <button id="two" class="buttons numbers" onclick="changeValue('2')">2</button>
+            <button id="three" class="buttons numbers" onclick="changeValue('3')">3</button>
+            <button id="multiply" class="buttons arithmetic" onclick="addOperator('x')">x</button>
+            <button id="zero" class="buttons numbers" onclick="changeValue('0')">0</button>
+            <button id="square-root" class="buttons advanced" onclick="squareRoot()">√</button>
+            <button id="square" class="buttons advanced" onclick="addOperator('^')">X<sup>a</sup></button>
+            <button id="divide" class="buttons arithmetic" onclick="addOperator('/')">÷</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

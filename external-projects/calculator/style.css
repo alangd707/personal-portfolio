@@ -1,0 +1,42 @@
+* {
+    font-size: 50px;
+}
+
+#calculator {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 550px;
+    width: 400px;
+    border: 2px solid black;
+    gap: 0px;
+    padding: 0px;
+    grid-template-areas:
+        'display display display '
+}
+#display {
+    font-size: 40px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    grid-area: display; 
+    align-items: center;
+}
+.functionality {
+    background-color: gray;
+}
+.arithmetic {
+    background-color: #ff8c00;
+}
+.numbers {
+    background-color: #545454;
+}
+.remove {
+    background-color: #a47474;
+}
+.advanced {
+    background-color: #ff8c00;
+}
+sup {
+    font-size: 35px;
+}

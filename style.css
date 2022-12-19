@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
 }
 #main {
+    margin-top: 20px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -17,8 +18,8 @@ body {
     width: 100vw;
 }
 #personal-picture {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 #main-link {
@@ -31,9 +32,6 @@ body {
     justify-content:center;
     width: 100%;
     background-color: orange;
-}
-h1 {
-    padding-bottom: 10px;
 }
 h4 {
     padding-top: 15px;
@@ -65,7 +63,7 @@ a {
     color: lightgray;
 }
 
-#main-text {
+.main-text {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -100,7 +98,6 @@ a {
 }
 .social-media-icons {
     color: white;
-    padding-right: 5px;
 }
 
 #photo {
@@ -108,18 +105,57 @@ a {
     align-items: center;
 }
 
-#projects-main {
+.projects-main {
     display:flex;
     flex-direction: column;
     align-items:center;
     width: 100%;
 }
+li {
+    text-align: left;
+}
 .project-sections {
+    padding-top: 10px;
+    padding-bottom: 8px;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     width: 100vw;
+    background-color: orange;
 }
+
 .display-img {
     border: 2px solid black;
 }
+#finished-projects {
+    margin-bottom: 100px;
+}
+#unfinished-projects {
+    margin-bottom: 200px;
+}
+
+#list {
+    justify-content:left
+}
+#finished-projects-header {
+    margin-top: 20px;
+}
+
+.language-percent {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+    .display-img {
+        width: 100px;
+        height: 100px;
+    }
+    .language-imgs {
+        width: 100px;
+        height: 100px;
+    }
+    #footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}  /* Query turns images into smaller pics while also transforming the footer so it's usable on smaller screens.*/

@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#backgroundSalad {
+    width: 175ch;
+    height: auto;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    position: fixed;
+    z-index: -10;
+    filter: blur(11px);
+}/*Puts picture of salad in background*/
+.menuLinks {
+    color: orange;
+    text-align: right;
+    font-size: 2ch;
+    margin-left: 90ch;
+    position: fixed;
+    z-index: 20;
+    margin-top: -.75ch;
+
+}/*Creates order now clickable*/
+h1 {
+    text-align: center;
+    font-family: poppinsFontExtraBold;
+    margin-top: 0ch;
+}/*Aligns text infront of big salad*/
+#bestSalads {
+    color:rgb(255, 84, 113);
+    font-size: 10ch;
+    background-color: rgba(255, 255, 255, 0.468);
+    z-index: 6;
+}/*Aligns and gives color and backcolor to text infront of the picture */
+#topBorder {
+    background-color: rgb(255, 99, 125);
+    margin-top: 0ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    height: 10ch;
+    width: 175ch;
+    position: fixed;
+    top: 0ch;
+    z-index: 5;
+}/*Makes the top pink bar*/
+.topBorder2 {
+    background-color:rgb(129, 255, 129);
+    margin-top: 3ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    width: 175ch;
+    z-index: 5;
+    position: fixed;
+}/*Makes green bar at the top*/
+
+#orderText {
+    margin-left: 50ch;
+    margin-right: 50ch;
+}/*Aligns text for questions*/
+#orangeBowl {
+    margin-left: 30ch;
+    margin-top: -12.5ch;
+    position: absolute;
+}/*Aligns orangebowl picture for question1*/
+#lettuceImage {
+    margin-left: 30ch;
+    margin-top: -20ch;
+    position: absolute;
+    height: 20ch;
+}/*Aligns lettus pi*/
+.validName {
+    color: rgb(249, 221, 225);
+}/*Colors the "Valid" part of title*/
+
+.saladsName {
+    color: lime;
+    text-decoration: underline;
+}/*Colors and underlines the "Salads" part of title*/
+
+#orange {
+    background-color: orange;
+    margin-bottom: -6ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    z-index: 10;
+}/*Creates orange border between picture and order section*/
+
+h2 {
+    font-family: poppinsFontMedium;
+    color: orange;
+}/*Font and color for all question headers*/
+#orderHereHeader {
+    font-size: 4ch;
+    color: rgb(255, 99, 125);
+    text-decoration: underline;
+    text-align: center;
+}/*Colors and underlines "Order Your Salad Here*/
+button {
+    background-color: rgb(205, 255, 211);
+    border-color: white;
+    size: 20ch;
+}/*Colors the button at the bottom*/
+@font-face {
+    font-family: poppinsFontMedium;
+    src: url(./fontPoppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsFontExtraBold;
+    src: url(./fontPoppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family:poppinsLight ;
+    src: url(./fontPoppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(fontPoppins/Poppins-Regular.ttf);
+}/*Source for all the fonts*/
+input {
+    accent-color: rgb(128, 255, 128);
+    box-decoration-break: slice;
+}/*Make checked questions green*/
+label {
+    font-family: poppinsRegular;
+}
+img {
+    height: 10ch;
+    margin-right: 10ch;
+    margin-left: auto;
+}/*Creates the sizes of the pictures*/
+#backgroundColorChooser {
+    background-color: white;
+    margin-right: -1ch;
+    margin-left: -1ch;
+}/*Creates color of question section white*/
